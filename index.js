@@ -2,16 +2,16 @@ const fs = require('fs');
 const path = require('path');
 
 class VersioningSystem {
-    constructor(projektname) {
-        this.projektname = projektname;
+    constructor(projectName) {
+        this.projectName = projectName;
         this.versions = [];
     }
 
     init() {
-        const projectPath = path.join(__dirname, this.projektname);
+        const projectPath = path.join(__dirname, this.projectName);
         fs.mkdirSync(projectPath);
-        fs.writeFileSync(path.join(projectPath, 'README.md'), '# ' + this.projektname + '\n\nDieses Verzeichnis enthält alle Versionen des Projekts.');
-        console.log(`Projekt ${this.projektname} initialisiert.`);
+        fs.writeFileSync(path.join(projectPath, 'README.md'), '# ' + this.projectName + '\n\nDieses Verzeichnis enthält alle Versionen des Projekts.');
+        console.log(`Projekt ${this.projectName} initialisiert.`);
     }
 
     addVersion(version) {
