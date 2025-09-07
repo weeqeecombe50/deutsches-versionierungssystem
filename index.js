@@ -10,7 +10,7 @@ class VersioningSystem {
     init() {
         const projectPath = path.join(__dirname, this.projectName);
         fs.mkdirSync(projectPath);
-        fs.writeFileSync(path.join(projectPath, 'README.md'), '# ' + this.projectName + '\n\nDieses Verzeichnis enthält alle Versionen des Projekts.');
+        fs.writeFileSync(path.join(projectPath, 'README.md'), '# ' + this.projectName + '\n\nDieses Verzeichnis enthält alle Versionen des Projektes.');
         console.log(`Projekt ${this.projectName} initialisiert.`);
     }
 
