@@ -9,7 +9,7 @@
   "scripts": {
     "start": "node dvs"
   },
-  "author": "Max Mustermann",
+  "author": "Max Mustermann und Sohn",
   "license": "MIT",
   "dependencies": {}
 }
