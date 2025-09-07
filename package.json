@@ -1,0 +1,15 @@
+{
+  "name": "deutsches-versionierungssystem",
+  "version": "1.0.0",
+  "description": "Ein Tool zur Verwaltung von Projektversionen.",
+  "main": "index.js",
+  "bin": {
+    "dvs": "./dvs"
+  },
+  "scripts": {
+    "start": "node dvs"
+  },
+  "author": "IHR NAME",
+  "license": "MIT",
+  "dependencies": {}
+}
