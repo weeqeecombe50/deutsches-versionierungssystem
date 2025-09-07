@@ -9,5 +9,5 @@ if (command === 'init' && projektname) {
     const vs = new VersionierungSystem(projektname);
     vs.init();
 } else {
-    console.log('Ungültiger Befehl. Benutzen Sie: ./dvs init <projektname>');
+    console.log('Ungültiger Befehl. Bitte verwenden Sie: ./dvs init <projektname>');
 }
