@@ -1,7 +1,7 @@
 {
   "name": "deutsches-versionierungssystem",
   "version": "1.0.0",
-  "description": "Ein Tool zur Verwaltung von Projektversionen.",
+  "description": "Ein Tool zur Verwaltung und Versionierung von Projekten.",
   "main": "index.js",
   "bin": {
     "dvs": "./dvs"
