@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+
+const VersionierungSystem = require('./index');
+
+const command = process.argv[2];
+const projektname = process.argv[3];
+
+if (command === 'init' && projektname) {
+    const vs = new VersionierungSystem(projektname);
+    vs.init();
+} else {
+    console.log('Ungültiger Befehl. Benutzen Sie: ./dvs init <projektname>');
+}
