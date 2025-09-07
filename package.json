@@ -9,7 +9,7 @@
   "scripts": {
     "start": "node dvs"
   },
-  "author": "IHR NAME",
+  "author": "Max Mustermann",
   "license": "MIT",
   "dependencies": {}
 }
