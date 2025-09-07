@@ -6,7 +6,7 @@ Vielen Dank, dass Sie zum **deutschen Versionierungssystem** beitragen möchten!
 
 1. Forken Sie das Repository.
 2. Erstellen Sie Ihren Feature-Branch: `git checkout -b feature/mein-feature`.
-3. Commiten Sie Ihre Änderungen: `git commit -m 'Fügen Sie ein neues Feature hinzu'`.
+3. Commiten Sie Ihre Änderungen: `git commit -m 'Fügen Sie ein neues Feature hinzu'` (vergewissern Sie sich, dass Ihre Commit-Nachricht den Änderungen entspricht).
 4. Pushen Sie den Branch: `git push origin feature/mein-feature`.
 5. Erstellen Sie einen Pull-Request.
 
