@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-class VersionierungSystem {
+class VersioningSystem {
     constructor(projektname) {
         this.projektname = projektname;
         this.versions = [];
@@ -26,4 +26,4 @@ class VersionierungSystem {
     }
 }
 
-module.exports = VersionierungSystem;
+module.exports = VersioningSystem;
